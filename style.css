@@ -1,0 +1,494 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  /* background-color: #F8F8FA; */
+}
+body{
+  background-color: #F8F8FA;
+}
+
+header{
+  background-color: #4618FE;
+  color: white;
+}
+
+nav{
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  /* border: 2px solid black; */
+}
+.nav-item, .nav-item-active{
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  font-size: 15px;
+}
+.nav-item-active,.nav-item:hover{
+  background-color: aliceblue;
+  font-weight: 700;
+  color: black;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.items{
+  display: flex;
+  align-items: center;
+}
+.items>svg:hover{
+  background-color: transparent;
+  filter: drop-shadow(0 0 0.7rem black);
+}
+.extended-nav{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+.header-text{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding: 20%; */
+}
+.header-image{
+  width: 40vw;
+  position: relative;
+  top: 100px;
+  margin-top: -70px;
+}
+.header-text img{
+  width: 5%;
+  padding: 20px 0px;
+}
+.header-text h2{
+  font-size: 40px;
+}
+.companies {
+  /* display: flex; */
+  /* margin-left: 12rem; */
+  margin-top: 1.3rem;
+  
+  /* gap: 3rem; */
+}
+.content{
+  padding: 0rem 3rem;
+}
+.companies a {
+  font-family: "Righteous";
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000;
+  margin: 2rem;
+}
+.api{
+  margin: 100px 0px;
+  /* border: 2px solid black; */
+}
+.api h1, .blog-heading h1, .faq-section h2{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /* border: 2px solid black; */
+}
+.cards{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+.card-active,.card{
+  flex: auto;
+  background-color: #FFF;
+  /* border: 2px solid black; */
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.card-active{
+  filter: drop-shadow(0 0 0.3rem black);
+}
+.card:hover{
+  filter: drop-shadow(0 0 0.3rem black);
+}
+.cards h3{
+  color: #4618FE; 
+}
+.blog-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.blog-card{
+  width: 550px;
+  display: flex;
+  background-color: #FFF;
+  margin: 20px;
+  padding: 0px;
+  border-top-left-radius: 100px;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+}
+.blog-bottom{
+  position: absolute;
+  bottom: -10%;
+  /* border: 2px solid blue; */
+}
+.blog-bottom{
+  right: 40%;
+}
+.blog-card-bottom-image {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.blog-author {
+  position: absolute;
+  bottom: 6px;
+  right: 20%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #4617fe;
+  /* border: 2px solid black; */
+}
+.blog-content{
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.faq-section{
+  padding-left: 2rem;
+  margin: 50px 0px;
+  background-color: #E9EDFF;
+  display: flex;
+  justify-content: space-between;
+}
+.faq-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+button{
+  background-color: #4617fe;
+  padding: 0.3rem 0.7rem;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  color: #FFF;
+}
+.faq-content h4:nth-child(2){
+  font-size: 0.6rem;
+}
+
+.download-section{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.download-email{
+  background-color: #E9EDFF;
+  /* padding: 0px 20px; */
+  margin-left: 20px;
+  border-radius: 10rem;
+}
+.download-email input{
+  border: none;
+  background-color: #E9EDFF;
+  padding: 0px 20px;
+}
+.download-section button{ 
+  padding: 0.5rem 2rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+}
+.content2{
+  padding: 0px 50px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  background: #4617fe;
+  color: #FFF;
+  padding: 5rem 4rem;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+}
+.footer-section li{
+  margin-right: 2rem;
+}
+.footer-logo{
+  margin-bottom: 2rem;
+}
+.footer-logos {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.logos-list {
+  margin-right: 1rem;
+} 
+/* .list{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  border: 2px solid black;
+} */
+/* 
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.list,
+.logos-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.footer-logos {
+  margin-left: 1rem;
+}
+
+.logos-list {
+  margin-right: 3rem;
+}  */
+/* 
+.download-email form {
+  background: #e9edff;
+  border-radius: 10rem;
+}
+
+.download-email input {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 9rem;
+  font-size: 1rem;
+  margin: 8px;
+  background: #e9edff;
+  color: #000;
+  border: none;
+  border-radius: 10rem;
+}
+
+.download-email button {
+  background: #4617fe;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+  margin: 8px;
+  text-transform: uppercase;
+} */
+/* ////////////////////////////////////////////////////////////// */
+/* 
+.card,
+.card-active {
+  padding: 2rem 1rem;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+}
+.card-active {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 8px;
+}
+
+.card-head-active {
+  color: #4617fe;
+}
+
+.card-head,
+.card-head-active {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.blog-heading {
+  margin: 6rem 12rem 2.5rem;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 12rem;
+}
+
+.blog-card {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 12px;
+  border-top-left-radius: 100px;
+}
+.blog-image {
+  display: flex;
+  align-items: center;
+}
+
+.blog-content {
+
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+}
+.blog-content h6 {
+  color: #4617fe;
+  font-size: 1rem;
+}
+
+.blog-bottom {
+  position: absolute;
+  bottom: -26px;
+}
+.blog-card-bottom-image {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.blog-author {
+  position: absolute;
+  bottom: 6px;
+  right: 4rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #4617fe;
+}
+
+
+
+.faq-section {
+  padding: 4rem 0 4rem 8rem;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9edff;
+  height: 324px;
+}
+
+.faq-content h2 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.faq-content h4 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.faq-content :nth-child(3) {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.faq-content button {
+  padding: 1rem 2rem;
+  background-color: #4617fe;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.faq-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faq-image img {
+  height: 450px;
+}
+
+.download-section {
+  margin: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-email form {
+  background: #e9edff;
+  border-radius: 10rem;
+}
+
+.download-email input {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 9rem;
+  font-size: 1rem;
+  margin: 8px;
+  background: #e9edff;
+  color: #000;
+  border: none;
+  border-radius: 10rem;
+}
+
+.download-email button {
+  background: #4617fe;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+  margin: 8px;
+  text-transform: uppercase;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  background: #4617fe;
+  padding: 5rem 8rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.list,
+.logos-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.footer-logos {
+  margin-left: 1rem;
+}
+
+.logos-list {
+  margin-right: 3rem;
+} */
