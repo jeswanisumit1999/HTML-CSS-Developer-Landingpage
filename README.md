@@ -4,10 +4,8 @@
 ![Screenshot](./ScreenShot.JPG)
 
 ## Learnings
-- Flex property
-- Positions and alignments
-- Making webpage responsive
-- Hosting
+- Making full home page
+- Display properties
 
 ## Time to finish the Project
 - 6 hours + 1 hour (for making responsive)
